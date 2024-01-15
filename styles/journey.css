@@ -11,7 +11,7 @@ header, main{
 }
 
 header{
-    margin-top:53px;
+    margin-top:30px;
 }
 header h1{
     margin-left:16px;
@@ -46,7 +46,7 @@ nav a{
     font-weight: 400;
 }
 .banner{
-    margin-top:50px;
+    margin-top:30px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -134,6 +134,7 @@ footer{
     justify-content: center;
     align-items:center;
     flex-direction:column;
+    margin-top:100px;
 }
 footer>div{
     padding-top:110px;
@@ -182,4 +183,74 @@ hr{
     font-size: 16px;
     font-weight: 300;
     margin-bottom:110px;
+}
+section{
+    margin-top:100px;
+}
+.popular-tour{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:50px;
+    text-align:left;
+    justify-content: space-between;
+    margin-left:0px;
+    
+}
+.popular-tour-title{
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-tour-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom:24px;
+    text-align: left;
+    
+}
+.popular-img{
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat;
+}
+.btn-read{
+    border-radius: 8px;
+    background: #FF5400;
+    padding:14px 35px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border:none;
+    cursor:pointer;
+}
+.destination{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.destination-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom:24px;
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    width:640px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 48px;
+    margin-top:0px;
 }
