@@ -491,6 +491,7 @@ section{
 .back-card{
     position:relative;
     margin-bottom:24px;
+    border-radius: 16px;
 }
 .dis-card,.dis-card-2{
     position:absolute;
